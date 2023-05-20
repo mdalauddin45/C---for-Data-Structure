@@ -15,11 +15,11 @@ int main(){
     case 'I':
     case 'O':
     case 'U':
-        cout<<"Vowel";
+        cout<<"Vowel"<<endl;
         break;
     
     default:
-        cout<<"Consonent";
+        cout<<"Consonent"<<endl;
         break;
     }
    
