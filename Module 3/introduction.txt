@@ -1,0 +1,5 @@
+1. class object
+2. constructor
+3. how to function return a object
+4. how to mack dynamic object create
+5. c++ short()
