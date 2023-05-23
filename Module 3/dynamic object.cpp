@@ -19,15 +19,17 @@ class Students
 int main(){
     // with out constructor declear a dynamic object 
     //   Students*mynul=new Students;
-    char name[100]="Mynul Alam";
+     char name[100]="Mynul Alam";
      // with constructor declear a dynamic object 
      // dereperace kory function k print korty hoi example:  cout<<(*mynul).roll<<endl;
      // shorcut print example cout<<mynul->cls<<endl;
+
+
         Students*mynul=new Students(31,'A',7,name);
         cout<<(*mynul).roll<<endl;
         cout<<mynul->cls<<endl;
 
         // delete an object
-        delete mynul;
+        // delete mynul;
     return 0;
 }
