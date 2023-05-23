@@ -26,6 +26,8 @@ int main(){
         Students*mynul=new Students(31,'A',7,name);
         cout<<(*mynul).roll<<endl;
         cout<<mynul->cls<<endl;
-//    cout<<mynul.roll<<endl<<mynul.sec<<endl<<mynul.cls<<endl<<mynul.name<<endl;
+
+        // delete an object
+        delete mynul;
     return 0;
 }
