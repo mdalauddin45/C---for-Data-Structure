@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int n,r=0,flag=1,min;
     cin>>n;
+    int mn=INT_MAX;
     while (n--)
     {
         int x;
@@ -20,11 +21,11 @@ int main(){
                  if(flag){
                    min=r;
                    flag=0;
-                }
+                }   
                 r=0;
             }
         }
-       cout<<min<<endl;
+       cout<<min;
     }
     
     return 0;
