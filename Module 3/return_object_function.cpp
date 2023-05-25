@@ -22,6 +22,6 @@ Students fun(){
 }
 int main(){
         Students mynul=fun();
-   cout<<mynul.roll<<endl<<mynul.sec<<endl<<mynul.cls<<endl<<mynul.name<<endl;
+      cout<<mynul.roll<<endl<<mynul.sec<<endl<<mynul.cls<<endl<<mynul.name<<endl;
     return 0;
 }
