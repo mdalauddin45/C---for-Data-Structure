@@ -1,3 +1,7 @@
+// Sort the elements in an array based on their frequencies. If two elements have same frequency 
+// put them based on which appeared first in the array.
+// Input: arr[] = {2, 1, 5, 3, 5, 2, 1, 2, 2, 3} 
+// Output: 2, 1, 5, 3
 #include <bits/stdc++.h>
 using namespace std;
 bool compare(pair<int, pair<int, int>> p,
