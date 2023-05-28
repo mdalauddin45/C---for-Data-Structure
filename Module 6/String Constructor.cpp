@@ -7,7 +7,7 @@ int main(){
     // string a="hello world";
     // string s(a,4); output: o world
     // string s("hello world",4); output: hell
-    string s(26,'A'); output: AAAAAAAAAAAAAAAAAAAAAAAAAA
+    string s(26,'A'); //output: AAAAAAAAAAAAAAAAAAAAAAAAAA
     cout<<s<<endl;
     return 0;
 }
