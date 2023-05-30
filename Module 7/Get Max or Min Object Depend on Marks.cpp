@@ -17,12 +17,18 @@ int main()
         cin.ignore();
     }
     Student mx;
+    Student mn;
     mx.marks=INT_MIN;
+    mn.marks=INT_MAX;
     for(int i=0;i<3;i++){
         if(a[i].marks>mx.marks){
             mx=a[i];
         }
+         if(a[i].marks<mn.marks){
+            mn=a[i];
+        }
     }
     cout<<mx.name<<endl<<mx.roll<<endl<<mx.marks<<endl;
+    cout<<mn.name<<endl<<mn.roll<<endl<<mn.marks<<endl;
     return 0;
 }
