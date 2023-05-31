@@ -7,9 +7,8 @@ class Student
     int roll;
     int marks;
 };
-bool cmp(Student a,Student b)
-{
-    if(a.marks<b.marks) return true;
+bool cmp(Student a,Student b){
+    if(a.marks>b.marks) return true;
     else return false;
 }
 int main()
@@ -21,12 +20,10 @@ int main()
         cin>>a[i].roll>>a[i].marks;
         cin.ignore();
     }
-    
     //sort function
     sort(a,a+3,cmp);
-    for(int i=0;i<3;i++)
-    {
-        cout<<a[i].name<<" "<<a[i].roll<<" "<<a[i].marks<<endl;
+    for(int i=0;i<3;i++){
+        cout<<a[i].name<<endl<<a[i].roll<<endl<<a[i].marks<<endl;
     }
     return 0;
 }
