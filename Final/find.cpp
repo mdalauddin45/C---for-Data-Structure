@@ -1,13 +1,19 @@
 #include<bits/stdc++.h>
-#include<string.h>
 using namespace std;
-string sentence;
-
-int main()
-{
+int main(){
     string s;
     getline(cin,s);
-    string f="Ratul";
-    if(s.find(f)) cout<<"YES";
-    else cout<<"NO";
+    stringstream ss(s);
+    string word;
+    int ans=0;
+    string a="Ratul";
+    while (ss>>word)
+    {
+          if(word==a){
+            ans++;
+        }
+    }
+   if(ans!=0) cout << "YES";
+   else cout << "NO";
+    return 0;
 }
