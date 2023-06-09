@@ -4,7 +4,7 @@
 // Output: 2, 1, 5, 3
 #include <bits/stdc++.h>
 using namespace std;
-bool compare(pair<int, pair<int, int>> p,
+bool cmp(pair<int, pair<int, int>> p,
 pair<int, pair<int, int>> p1)
 {
 if (p.second.second != p1.second.second)
@@ -12,7 +12,7 @@ return (p.second.second > p1.second.second);
 else
 return (p.second.first < p1.second.first);
 }
-void Sort_By_Frequency(int arr[], int n)
+void frq(int arr[], int n)
 {
 unordered_map<int, pair<int, int>> mp;
 for (int i = 0; i < n; i++)
@@ -26,7 +26,7 @@ auto it = mp.begin();
 vector<pair<int, pair<int, int>>> b;
 for (it; it != mp.end(); ++it)
 b.push_back(make_pair(it->first, it->second));
-sort(b.begin(), b.end(), compare);
+sort(b.begin(), b.end(), cmp);
 for (int i = 0; i < b.size(); i++)
 {
 cout << b[i].first << (i!=b.size()-1?", ":"");
@@ -39,6 +39,6 @@ cin >> n;
 int arr[n];
 for (int i = 0; i < n; ++i)
 cin >> arr[i];
-Sort_By_Frequency(arr, n);
+frq(arr, n);
 return 0;
 }
