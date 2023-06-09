@@ -11,7 +11,7 @@ public:
         this->id=id;
     }
     void printPerson(){
-    cout<<"Name: "<<lastName<<", "<<firstName<<endl<<" ID: "<<id<<endl;
+    cout<<"Name: "<<lastName<<", "<<firstName<<endl<<"ID: "<<id<<endl;
     }
 };
 class Student:public Person{
@@ -45,6 +45,6 @@ int main(){
     }
     Student*s=new Student(firstName,lastName,id,v);
     s->printPerson();
-    cout<<" Grade: "<<s->calculate()<<endl;
+    cout<<"Grade: "<<s->calculate()<<endl;
     return 0;
 }
