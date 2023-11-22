@@ -2,28 +2,15 @@
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
-    
-    while (t--) {
-        int x, y;
-        cin >> x >> y;
-        
-        int ts = x + y; 
-        int n1 = ts + x;
-
-        if (n1 % 2) {
-            ts++; 
-        }
-
-        int possibleN = ts + 1;
-        
-        if (x < y + (possibleN - ts) / 2) {
-            cout << possibleN << endl;
-        } else {
-            cout << ts << endl;
-        }
-    }
-    
-    return 0;
+	long long t;
+	cin>>t;
+	while(t--){
+	    int a,b;
+	    cin>>a>>b;
+	    int x=0;
+	    if(a > b) x = 2*a-1;
+	    else x=2 *b -1;
+	    cout<<x<<endl;
+	}
+	return 0;
 }
