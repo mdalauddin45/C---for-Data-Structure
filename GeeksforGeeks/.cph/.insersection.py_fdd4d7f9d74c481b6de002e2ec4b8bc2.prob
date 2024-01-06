@@ -1,0 +1,1 @@
+{"name":"Local: insersection","url":"e:\\Phitron\\C++ for DSA\\GeeksforGeeks\\insersection.py","tests":[{"id":1704556092671,"input":"5 3\n89 24 75 11 23\n89 2 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\C++ for DSA\\GeeksforGeeks\\insersection.py","group":"local","local":true}
