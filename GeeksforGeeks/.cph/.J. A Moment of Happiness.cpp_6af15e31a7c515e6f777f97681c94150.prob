@@ -1,0 +1,1 @@
+{"name":"Local: J","url":"e:\\Phitron\\C++ for DSA\\GeeksforGeeks\\J. A Moment of Happiness.cpp","tests":[{"id":1706281311808,"input":"5\n01001","output":"2"},{"id":1706281319915,"input":"5\n11111","output":"0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Phitron\\C++ for DSA\\GeeksforGeeks\\J. A Moment of Happiness.cpp","group":"local","local":true}
